@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.DS {
+  display: flex;
+  border: 1px solid gold;
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+  background: rgb(195, 61, 29);
+  background: linear-gradient(
+    90deg,
+    rgb(138, 126, 123) 0%,
+    rgba(23, 23, 136, 1) 35%,
+    rgba(138, 126, 123) 100%
+  );
+}
+.img {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  border-radius: 10px;
+  margin: 0px;
+}
+.Name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: max-content;
+  height: 100px;
+  border-radius: 10px;
+}
+.info {
+  border-left: 1px solid;
+  padding: 5px;
+  background-color: transparent;
+}
+p {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+}
+li {
+  color: white;
+}
+.Experience,
+.Contacts {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid;
+}
+.add {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .Product{
+  display: flex;
+}
+.Product_Name,.Table{
+  margin-right: 10px;
+  background-color: burlywood;
+  padding: 5px;
+  border-radius: 5px;
+} */
